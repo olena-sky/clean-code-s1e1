@@ -122,7 +122,7 @@
   width: 226px;
 }
 .todo__item > .todo__input--text {
-  width: 226px
+  width: 226px;
 }
 .todo__button--delete .todo__img-btn {
   height: 2em;
@@ -135,18 +135,18 @@
 
 /* Completed */
 .todo__list--completed .todo__label--task {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 ul li .todo__input--text {
-  display: none
+  display: none;
 }
 
 .todo__item--edit-mode .todo__input--text {
   display: inline-block;
-  width:224px
+  width: 224px;
 }
 
 .todo__item--edit-mode .todo__label--task {
